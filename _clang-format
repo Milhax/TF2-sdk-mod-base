@@ -1,0 +1,41 @@
+---
+BasedOnStyle: LLVM
+---
+Language: Cpp
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+MaxEmptyLinesToKeep: 3
+ColumnLimit: 0
+# puts {} on separate lines
+BreakBeforeBraces: Allman
+AccessModifierOffset: -4
+
+SpacesInParens: Custom
+SpacesInParensOptions:
+  ExceptDoubleParentheses: false
+  InConditionalStatements: true
+#  InCStyleCasts:
+  InEmptyParentheses: false
+  Other: true
+
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  PadOperators: true
+
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: true
+
+SortIncludes: false
